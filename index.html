@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="screen-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="ui-layer">
+            <!-- UI will be dynamically injected here -->
+        </div>
+        <div class="scanlines"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/network.js"></script>
+    <script src="js/world.js"></script>
+    <script src="js/games/basketball.js"></script>
+    <script src="js/games/whackamole.js"></script>
+    <script src="js/games/boxing.js"></script>
+    <script src="js/games/clawmachine.js"></script>
+    <script src="js/games/balldrop.js"></script>
+    <script src="js/games/colormatch.js"></script>
+    <script src="js/games/popthelock.js"></script>
+    <script src="js/games/slotmachine.js"></script>
+    <script src="js/games/pachinko.js"></script>
+    <script src="js/games/pushcar.js"></script>
+    <script src="js/games/stacker.js"></script>
+    <script src="js/games/zombiesnatcher.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
